@@ -1,0 +1,1 @@
+# spm-adapters-meal-mock
