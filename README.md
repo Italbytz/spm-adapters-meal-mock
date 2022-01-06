@@ -1,1 +1,3 @@
-# spm-adapters-meal-mock
+# MockMealAdapters
+
+A description of this package.
