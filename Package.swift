@@ -15,7 +15,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         .package(name: "CommonPorts", url: "https://github.com/Italbytz/spm-ports-common.git", from: "0.0.5"),
-        .package(name: "MealPorts", url: "https://github.com/Italbytz/spm-ports-meal.git", from: "0.0.5"),
+        .package(name: "MealPorts", url: "https://github.com/Italbytz/spm-ports-meal.git", from: "0.0.6"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
