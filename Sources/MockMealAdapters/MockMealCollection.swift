@@ -9,7 +9,6 @@ import Foundation
 import MealPorts
 
 struct MockMealCollection : MealCollection {
-    var name: String    
-    var meals: [Meal]
-        
+    var category: MealCategory
+    var meals: [Meal]        
 }

@@ -14,8 +14,8 @@ public class MockGetMealsCommand : GetMealsCommand {
     }
     
     public func execute(inDTO: MealQuery) async throws -> Array<MealCollection> {
-        return [MockMealCollection(name: "Dishes", meals: dishes),
-                MockMealCollection(name: "Desserts", meals: desserts)]
+        return [MockMealCollection(category: .dish, meals: dishes),
+                MockMealCollection(category: .dessert, meals: desserts)]
     }
     
     
