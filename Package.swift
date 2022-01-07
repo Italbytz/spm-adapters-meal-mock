@@ -14,7 +14,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(name: "CommonPorts", url: "https://github.com/Italbytz/spm-ports-common.git", from: "0.0.5"),
         .package(name: "MealPorts", url: "https://github.com/Italbytz/spm-ports-meal.git", from: "0.0.6"),
     ],
     targets: [
@@ -22,7 +21,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "MockMealAdapters",
-            dependencies: ["CommonPorts", "MealPorts"]),
+            dependencies: ["MealPorts"]),
         .testTarget(
             name: "MockMealAdaptersTests",
             dependencies: ["MockMealAdapters"]),
